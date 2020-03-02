@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Payment App Nodejs Backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/werfree/PaymentGateways.git"
+  },
+  "author": "Sayantan Ghosh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/werfree/PaymentGateways/issues"
+  },
+  "homepage": "https://github.com/werfree/PaymentGateways#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "stripe": "^8.24.0",
+    "uuid": "^7.0.1"
+  }
+}
